@@ -40,5 +40,9 @@
 // arr[3] = "a";
 // console.log(arr);
 
-let string1 = `t t t t t t t t`;
-console.log(string1.indexOf(" "));
+// let string1 = `t t t t t t t t`;
+// console.log(string1.indexOf(" "));
+
+let string =
+  "I love JavaScript. If you do not love JavaScript what else can you love.";
+console.log(string.match("love"));
