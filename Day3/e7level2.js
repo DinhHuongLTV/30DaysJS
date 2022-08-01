@@ -1,0 +1,2 @@
+console.log(`The slopes on tow examples above is equal: 
+             ${(pointX[1] - pointY[1]) / (pointX[0] - pointY[0]) === Number(equation.slice(equation.indexOf('=') + 2, equation.indexOf('x')))}`);
